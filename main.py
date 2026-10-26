@@ -13,7 +13,7 @@ def add_brand (e):
     name_one = document.getElementById('firstname').value
     name_two = document.getElementById('lastname').value
 
-    new_Student = name_two + " " + name_one #concantenates the two inputs with proper spacing
+    new_Student = name_one + " " + name_two #concantenates the two inputs with proper spacing
     #assign the value to a set variable
     new_brand_set = {new_Student.title()} #assigning the full name variable as a set datatype, accompanied with proper capitalization
 
