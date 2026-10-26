@@ -1,12 +1,13 @@
 from pyscript import display, document
 
 #NO AI WAS USED DURING THE MAKING OF THIS PROJECT
+#Random generated names by using this website: https://www.fantasynamegenerators.com/filipino-names.php
 def add_brand (e):
     document.getElementById('output1').innerHTML = ""
-    grade_seven = {'Bahay Kubo', 'Singkamas Talong', 'Sigarilyas Mani'}
-    grade_eight = {'Kundol Patola', 'Upo Kalabasa', 'Labanos Mustasa', 'Sibuyas Kamatis'}
-    grade_nine = {'Bawang Luya', 'Halamang Linga', 'Sitaw Patani'}
-    grade_ten = {'Sili Labuyo', 'Saging Saba', 'Ube Kamote'}
+    grade_seven = {'Glenn Alcantara', 'Arthur Fernandez', 'Meagan Escano'}
+    grade_eight = {'Raina Agcaoili', 'Immanuel Arce', 'Jerald Aguilar', 'Kassidy Santos'}
+    grade_nine = {'Michelle Acosta', 'Aimee Catubig', 'Inez Estillore'}
+    grade_ten = {'Hayden Alonzo', 'Reid Cunanan', 'Tyra Garcia'}
     name_one = document.getElementById('firstname').value
     name_two = document.getElementById('lastname').value
     new_Student = name_two + " " + name_one
